@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print all single digit numbers using putchar, followed by a newline
  *
- *
- * Return: Always 0 (Sucess)
+ * Return: always 0
  */
 
 int main(void)
 {
-	char c;
+int digit = 0;
 
-	for (c = 'z' ; c >= 'a' ; c--)
-	{
-		putchar(c);
-	}
-	putchar('\n');
-	return (0);
+for (digit = '0'; digit <= '9'; digit++)
+{
+putchar(digit);
+}
+putchar('\n');
+
+return (0);
 }
