@@ -22,7 +22,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
         }
         if (!(i % 10) && i)
         {
-		printf("\n");
+            printf("\n");
         }
         printf("0x%02x", buffer[i]);
         i++;
@@ -31,7 +31,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
 }
 
 /**
- * main - check the code for ALX School students.
+ * main - check the code for Holberton School students.
  *
  * Return: Always 0.
  */
@@ -49,4 +49,3 @@ int main(void)
     free(buffer);
     return (0);
 }
-
